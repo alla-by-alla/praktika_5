@@ -1,0 +1,15 @@
+/Users/alla/Desktop/seminar_5/dz_5_2/bin/Debug/net6.0/dz_5_2
+/Users/alla/Desktop/seminar_5/dz_5_2/bin/Debug/net6.0/dz_5_2.deps.json
+/Users/alla/Desktop/seminar_5/dz_5_2/bin/Debug/net6.0/dz_5_2.runtimeconfig.json
+/Users/alla/Desktop/seminar_5/dz_5_2/bin/Debug/net6.0/dz_5_2.dll
+/Users/alla/Desktop/seminar_5/dz_5_2/bin/Debug/net6.0/dz_5_2.pdb
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.csproj.AssemblyReference.cache
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.AssemblyInfoInputs.cache
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.AssemblyInfo.cs
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.csproj.CoreCompileInputs.cache
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.dll
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/refint/dz_5_2.dll
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.pdb
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/dz_5_2.genruntimeconfig.cache
+/Users/alla/Desktop/seminar_5/dz_5_2/obj/Debug/net6.0/ref/dz_5_2.dll
