@@ -1,31 +1,32 @@
 ﻿Console.Clear();
-Console.WriteLine("Введите размер массива:");
-int size = Convert.ToInt32(Console.ReadLine());
-int[] numbers = new int[size];
-FillArrayRandomNumbers(numbers);
-Console.WriteLine("Вот наш массив: ");
-PrintArray(numbers);
-int sum = 0;
-
-for (int z = 0; z < numbers.Length; z+=2)
-    sum = sum + numbers[z];
-
-    Console.WriteLine($"Всего {numbers.Length} чисел, сумма элементов на нечётных позициях = {sum}");
-
-void FillArrayRandomNumbers(int[] numbers)
+int InputNum (string message)
 {
-    for(int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = new Random().Next(1,10);
-        }
+    Console.Write (message);
+    return Convert.ToInt32 (Console.ReadLine ());
 }
-void PrintArray(int[] numbers)
+
+void SumArray (int size, int maxNum)
 {
-    Console.Write("[ ");
-    for(int i = 0; i < numbers.Length; i++)
-        {
-            Console.Write(numbers[i] + " ");
-        }
-    Console.Write("]");
-    Console.WriteLine();
+    Console.Write ($"Ваш массив случайных чисел: ");
+    int [] array = new int [size];
+    for (int i = 0; i < size; i++)
+    {
+        array [i] = new Random().Next(-maxNum, maxNum+1);
+        Console.Write ($"{array [i]} ");
+    }
+    int sum = 0;
+    int j = 1;
+    while (j < size)
+    {
+        sum += array [j];
+        j += 2;
+    }
+    Console.WriteLine ("");
+    Console.Write ($"Сумма чисел на нечетных позициях: {sum}");
 }
+
+int size = InputNum ($"Задайте размер массива: ");
+
+int maxNum = InputNum ($"Задайте максимальное число массива: ");
+
+SumArray (size, maxNum);
